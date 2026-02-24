@@ -79,12 +79,16 @@ Assignment 6
 console.log("Iam In Console");
 document.write("Iam In Page");
 
+// Method 1
 /*
 console.log("Iam In Console");
 document.write("Iam In Page");
 */
 
-if (false) {
+// Method 2
+(function(){
+  return;
   console.log("Iam In Console");
   document.write("Iam In Page");
-}
+})();
+
